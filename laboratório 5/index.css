@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(19, 185, 27);
+}
+section{
+  width: 500px;
+  height: auto;
+  background-color: rgb(64, 64, 177);
+  margin: auto;
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px black ;
+}
+h1{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}

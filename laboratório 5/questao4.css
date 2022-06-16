@@ -1,0 +1,71 @@
+body{
+  border: 1px solid black;
+  padding: 50px;
+}
+
+#texto-topo{
+  text-align: center;
+  padding-top: 40px;
+   
+}
+
+#texto-topo h1{
+  margin: 0;
+}
+
+#texto-topo p{
+  margin: 0;
+  margin-top: 10px;
+}
+
+#texto-topo hr{
+ margin-bottom: 50px;
+ margin-top: 50px;
+
+
+}
+
+#separador{
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.circulo{
+  width: 30px;
+  height: 30px;
+  border: 1px black solid;
+ 
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.profile{
+  border: 1px black solid;
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  width: 230px;
+  height: 80px;
+  margin: 0 10px;
+ 
+}
+
+#perfis{
+  display: flex;
+  justify-content:center;
+
+
+}
+
+#final{
+  text-align: center;
+}
+
+#final button{
+  border: gray solid 1px;
+  border-radius: 25px;
+  background-color:gray;
+  color: white;
+  margin-bottom:16px;
+  padding: 5px 9px ;
+}

@@ -1,0 +1,40 @@
+
+body{
+    background-color: #DDDDDD;
+}
+header{
+    display: flex;
+  
+}
+img{
+    width: 10em; 
+    margin-left: 100px;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    
+}
+
+h1, td, th{
+    color: #DD0000;
+    
+}
+
+
+
+td{
+background-color: #FFFFCC;
+padding: 10px;
+text-align: right;
+}
+
+th{
+    background-color:#FFFFCC;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.titulo{
+    font-weight: bold;
+    text-align: center;
+}
