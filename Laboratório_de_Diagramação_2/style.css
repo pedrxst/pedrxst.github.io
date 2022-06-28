@@ -1,0 +1,165 @@
+header,main,footer{
+  width: 1200px;
+  margin: auto;
+}
+
+body{
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+header{
+  position: relative;
+}
+#logo{
+  color: white;
+  position: absolute;
+  top: 100px;
+  width: inherit;
+  text-align: center;
+  font-size: 250%;
+}
+#creditos{
+  color: rgba(255, 255, 255, 0.63);
+  position: absolute;
+  top: 150px;
+  width: inherit;
+  text-align: center;
+
+}
+
+#menu li:hover{
+  
+  border: #F2F2F2 solid 1px;
+  border-radius: 25px;
+  background-color:#F2F2F2;
+  color: black;
+  transition: all 0.5s ease;  
+}
+
+#menu ul{
+display: flex;
+padding-left: 0;
+list-style: none;
+justify-content: space-between;
+width: 600px;
+margin: auto;
+}
+
+#menu{
+  position: absolute;
+  top: 200px;
+  width: inherit;
+}
+
+#menu li{
+  padding: 10px 25px;
+  color: #F2F2F2;
+
+}
+
+
+#main-content{
+  display:flex;
+  padding-bottom: 70px;
+  background-color: white;
+}
+
+aside{
+padding: 10px;
+
+}
+
+.aside-content{
+  display: flex;
+}
+
+#section-content{
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 80px 40px;
+  margin: auto;
+ 
+}
+
+footer{
+  display: flex;
+  background-color: #1d1d1d;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+
+}
+
+#article-title{
+  margin-bottom: 0;
+}
+#article-subtitle{
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+aside h3{
+padding-left: 37px;
+font-size: xx-large;
+margin-bottom: 75px;}
+
+footer ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+footer li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+  width: 250px;
+  color: #f2f2f2c5;
+  padding: 10px 0; 
+  }
+
+footer li:last-child{
+  border: 0ch;
+}
+
+.footer-content{
+  margin: auto;
+}
+
+footer p{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+
+}
+
+button{
+  border-radius: 20px;
+  padding: 10px;
+  border: 0px;
+  background-color: #e95d3c;
+  color: #F2F2F2;
+}
+
+section figcaption{
+  color: #4c4c4c;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 20px;
+
+}
+
+section figure{
+  margin-left: 0px;
+}
+
+section p{
+width: 314px;
+margin-bottom: 45px;
+}
+
+.data{
+  color:#4c4c4cd0;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+.separador{
+margin: 40px;
+  width: 400px;
+}
