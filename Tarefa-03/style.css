@@ -1,0 +1,102 @@
+/* Smartphones (600px para baixo) */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sriracha&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.menu-img {
+  padding: 1200px;
+}
+
+body {
+  margin: 0;
+}
+
+.titulo {
+  margin: 0;
+  padding: 1% 0 1.5% 19px;
+}
+
+h2,h3,h1,p {
+  font-size: large;
+  font-family: 'Patrick Hand', cursive;
+}
+
+nav {
+  background-color: rgb(153, 153, 153);
+  border: 2px solid black;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.menu-imagem {
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.box {
+  padding: 15px;
+  margin: 20px 16px;
+  background-color: rgb(146, 146, 146);
+}
+
+.title {
+  margin: 0;
+  font-size: 35px;
+  text-align: center;
+}
+
+.box p {
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 550px) {
+  body nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 75px;
+  }
+
+  .menu-img {
+    display: block;
+    right: 20px;
+    position: absolute;
+    height: 50px;
+  }
+
+  .titulo {
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .box {
+    flex: 40%;
+  }
+}
+
+body nav {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .box {
+    flex: 30%;
+  }
+}
