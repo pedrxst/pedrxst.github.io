@@ -1,0 +1,74 @@
+body{
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #3ea5fa 74%);
+
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0 black,
+		-5px -5px 0 black,
+		-5px 5px 0 black,
+		5px -5px 0 black;
+	transition: 500ms ease-in-out;
+
+ 
+}
+
+header{
+  margin: auto;
+}
+button:hover {
+	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+button:focus {
+	outline: none;
+}
+
+.filme{
+  border: rgb(21, 33, 209) 1px solid;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.titulo{
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: rgb(36, 101, 221);
+width: 160px;
+margin: auto;
+  
+}
+
+.faixa1{
+  background-color: rgb(40, 218, 40);
+  width:190px;
+  margin: auto;
+}
+.faixa2{
+  background-color: rgb(216, 231, 9);
+  width:190px;
+  margin: auto;
+}
+.faixa3{
+  
+  background-color: rgb(231, 9, 28);
+  width:190px;
+  margin: auto;
+}
+
+img{
+
+  border-radius: 20px;
+  box-shadow: #145981 5px 5px ;
+}
