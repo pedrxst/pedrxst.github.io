@@ -129,6 +129,8 @@ figcaption{
 
 
   @media (max-width: 800px) {
+
+		
 .menu{
 	margin-left:-100%;
 	transition:all .4s;
@@ -182,15 +184,18 @@ label[for='bt_menu']{
 	.imagem-banner{
 		width: 250px;
 		height: 250px;
-		margin: auto;
-		padding-bottom: 40px;
+		margin: -40px;
+		padding-bottom: 60px;
+	
 		
 	}
 	figcaption{
-		text-align: justify;
+		text-align: left;
 		width: 250px;
 		height: 100px;
 		margin-bottom: 20px;
+		margin-right: 30px;
+
 	}
 	
 
