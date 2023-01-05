@@ -168,19 +168,25 @@ label[for='bt_menu']{
    
   }
 
-	
 	#banners{
 		display: block;
 		margin: 100px;
 		justify-content: center;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	}
+
+
+
+
+	
 	#banners2{
 		display: block;
 		margin: 100px;
 		justify-content: center;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	}
+
+
 	.imagem-banner{
 		width: 250px;
 		height: 250px;
